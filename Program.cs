@@ -11,7 +11,7 @@ for (int i = 0; i < words.Length; i++)
 {
     if (words[i].Length <= 3) // Check if word is shotre then 3.
     {
-        newwords[j] = words[i]; // Put in in a new array.
+        newwords[j] = words[i]; // Put it in a new array.
         Console.Write($"{newwords[j]} ");// Show it.
         j++;
     }
