@@ -1,9 +1,9 @@
 ﻿/* Написать программу, которая формирует массив из строк 
 с длиной меньше либо ровно 3 символа.
 */
-Console.WriteLine("Enter your words using spacebar: ");
+Console.WriteLine("Enter your words: ");
 
-string[] words = Console.ReadLine()!.Split(); // Type array of strings.
+string[] words = Console.ReadLine()!.Split(' ', '.', ','); // Type array of strings.
 string[] newwords = new string[words.Length]; // Empty array.
 int j = 0;
 
